@@ -1,0 +1,7 @@
+{
+  "name": "Pawsome Pet Boutique",
+  "description": "Modern high-end e-commerce platform for pet supplies, treats, and accessories with interactive AI pet advisor and secure checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

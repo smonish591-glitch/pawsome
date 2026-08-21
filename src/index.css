@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', 'Playfair Display', 'DM Serif Display', Georgia, serif;
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9F7F2;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, .font-display, .font-serif {
+    font-family: var(--font-display);
+  }
+}
+
+/* Editorial Minimalist scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6D1CA;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A67C52;
+}
+
+/* Editorial subtle borders and shadows */
+.editorial-border {
+  border-color: rgba(26, 26, 26, 0.1);
+}
+
+.editorial-shadow {
+  box-shadow: 0 20px 40px -15px rgba(26, 26, 26, 0.06);
+}
+
